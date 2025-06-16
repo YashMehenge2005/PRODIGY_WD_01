@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Cafe Delight</div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#menu">Menu</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="section">
+            <h1>Welcome to Cafe Delight</h1>
+            <p>Experience the perfect blend of coffee and comfort.</p>
+            <img src="cafe.jpg" alt="Cafe Delight Interior" class="hero-image">
+        </section>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <div class="about-flex">
+                <div class="about-text">
+                    <p><strong>Welcome to Cafe Delight</strong>, where we blend the finest coffee with a warm, inviting atmosphere. Our cafe is a cozy retreat for coffee lovers and food enthusiasts alike. We source our beans from sustainable farms and craft each cup with care.</p>
+                    <p><strong>Our Story:</strong> Founded in 2020, Cafe Delight quickly became a beloved spot in the community. We believe in creating memorable experiences, whether you're here for your morning coffee or a relaxing afternoon treat.</p>
+                    <p><strong>Our Mission:</strong> To provide a welcoming space for everyone, serving high-quality coffee and delicious food with a smile. We are committed to sustainability and ethical sourcing, supporting both the environment and our farmers.</p>
+                    <p><strong>Meet Our Chef:</strong> Our talented chef brings creativity and passion to every dish, ensuring that each bite is as delightful as every sip of our coffee. From classic pastries to innovative specials, our menu is crafted with love and expertise.</p>
+                </div>
+                <div class="about-image-container">
+                    <img src="chef.jpg" alt="Cafe Delight Chef" class="about-chef-image">
+                </div>
+            </div>
+        </section>
+        <section id="menu" class="section">
+            <h2>Our Menu</h2>
+            <p>Explore our selection of specialty coffees, pastries, and light bites:</p>
+            <img src="food.jpg" alt="Cafe Menu" class="menu-image">
+            <ul>
+                <li>Espresso - Rich and bold</li>
+                <li>Cappuccino - Smooth and creamy</li>
+                <li>Croissant - Buttery and flaky</li>
+                <li>Chocolate Muffin - Decadent and moist</li>
+                <li>Avocado Toast - Fresh and healthy</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+                <div class="privacy-note">We respect your privacy and will never share your information.</div>
+            </form>
+            <p style="margin-top:1.5rem;">Visit us at 123 Coffee Street, or call us at (123) 456-7890. We're open Monday to Friday, 7 AM to 8 PM, and weekends from 8 AM to 6 PM.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
